@@ -1,0 +1,58 @@
+:root {
+  /* 新緑 × 生成り × 水色。丸ゴシックで親しみのある「栽培ノート」トーン */
+  --sprout: #4f9a41;
+  --sprout-deep: #2f6b2a;
+  --sprout-soft: #8bc47a;
+  --leaf-bg: #eaf3e2;
+  --droplet: #4fa9c9;
+  --droplet-soft: #cfe9f1;
+  --seed: #c9a24b;
+  --cream: #f7f6ee;
+  --paper-card: #ffffff;
+  --ink: #2c332a;
+  --ink-soft: #64705d;
+  --line: #e2e7d6;
+  --tip-bg: #eaf3e2;
+  --warn-bg: #fbeede;
+  --info-bg: #eef4ea;
+
+  --maxw: 760px;
+  --radius: 18px;
+  /* 丸ゴシックを先頭に。明朝は使わない（親しみ・実用トーン） */
+  --font: 'Hiragino Maru Gothic ProN', 'Quicksand', 'Rounded Mplus 1c', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Yu Gothic', Meiryo, 'Noto Sans JP', system-ui, sans-serif;
+
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  color: var(--ink);
+  background: var(--cream);
+  line-height: 1.9;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, svg { max-width: 100%; height: auto; }
+a { color: var(--sprout-deep); text-decoration: none; }
+a:hover { text-decoration: underline; }
+h1, h2, h3 { line-height: 1.5; font-weight: 700; color: var(--sprout-deep); }
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: var(--sprout);
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 0 0 10px 0;
+  z-index: 100;
+}
+.skip-link:focus { left: 0; }
+
+:focus-visible { outline: 3px solid var(--sprout-soft); outline-offset: 2px; }

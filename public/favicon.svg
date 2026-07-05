@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="双葉の新芽">
+  <rect width="64" height="64" rx="14" fill="#eaf3e2"/>
+  <!-- 茎 -->
+  <path d="M32 52 V30" fill="none" stroke="#3f7d34" stroke-width="4" stroke-linecap="round"/>
+  <!-- 左の双葉 -->
+  <path d="M32 34 C22 34 15 28 15 19 C25 19 32 25 32 34 Z" fill="#5aa64a"/>
+  <!-- 右の双葉 -->
+  <path d="M32 30 C42 30 49 24 49 15 C39 15 32 21 32 30 Z" fill="#77c05f"/>
+  <!-- 水滴 -->
+  <circle cx="44" cy="44" r="4.5" fill="#8fd0e6"/>
+</svg>
