@@ -14,22 +14,27 @@ Error generating stack: `+e.message+`
 
 ## 身近なスプラウト
 
-スプラウトにはいくつもの種類がある。
+スプラウトは、もとになる種の種類によって、味や色、食感が変わる。よく見かけるものを並べると、次のようになる。
 
-- ブロッコリースプラウト：ブロッコリーの新芽。くせが少なく食べやすい。
-- かいわれ大根：大根の新芽。ぴりっとした辛みがある。
-- 豆苗：えんどう豆の新芽。切ったあと水につけると再び伸びる。
+| 種類 | もとの植物 | 味と見た目の特徴 |
+|---|---|---|
+| ブロッコリースプラウト | ブロッコリー | 辛みが少なくマイルド。くせがなく食べやすい |
+| かいわれ大根 | 大根 | ぴりっとした辛み。細い白い茎に緑の双葉 |
+| レッドキャベツ | 紫キャベツ | 茎が鮮やかな赤紫。ほんのり甘い |
+| アルファルファ | マメ科の植物 | 細くてパリパリ。みずみずしくサラダ向き |
+| そばの芽 | そば | 茎がピンク色。くせがなく使いやすい |
+| マスタード | からし菜 | ぴりっとスパイシーな辛み |
 
-このうちブロッコリースプラウトは、家庭で育てる例として人気がある。本サイトでも、育て方の中心にこの種類を置いている。
+育て方の面では、茎を伸ばして双葉を緑にする「かいわれタイプ」（かいわれ大根やブロッコリーなど）と、暗いまま短く育てて緑にしない「もやしタイプ」に大きく分けられる。本サイトが中心に扱うのは、かいわれタイプの代表であるブロッコリースプラウトである。
 
-スプラウトは、種の種類によって味や見た目が変わる。数日で育ち、台所でも場所を取らないため、家庭で育てて食べる楽しみがある。芽が伸び、双葉が開いていく過程を観察できるのも、スプラウトならではである。手をかけずに短い期間で育てられるので、はじめての家庭菜園としても取り組みやすい。
+なお、豆苗（えんどう豆の新芽）のように、一度切ったあとも水につけておくと再び伸びて、二度目の収穫ができるものもある。数日で育ち、台所でも場所を取らないため、芽が伸びて双葉が開く様子を観察しながら育てる楽しみがある。手をかけずに短い期間で育てられるので、はじめての家庭菜園としても取り組みやすい。
 
 ## 成分についての考え方
 
 ブロッコリースプラウトは、スルフォラファンという成分のもと（前駆体）を含むことで知られる。よく噛んだり刻んだりして細胞がこわれると、酵素がはたらいてこの成分ができるとされる。成分のもとは種の段階では別のかたちで蓄えられていて、細胞がこわれたときにはじめて反応が進むと考えられている。生でよく噛んで食べるのがよいといわれるのは、このためである。
 
 ⚠️ 本サイトは、特定の健康効果や病気の予防をうたわない。成分の量や効果には研究の途上にあるものが多く、数値や倍率、特定の商品を宣伝することもしない。ここで扱うのは、[安全に育てて食べる方法](/sprout-info/grow/)である。
-`,updatedAt:`2026-07-05`,references:[ie.maffYasai]},{id:`vs-seedling`,title:`食べるスプラウトと、苗を育てるのは別もの`,shortTitle:`スプラウトと育苗のちがい`,group:`はじめに`,description:`「スプラウトを育てる」と「ブロッコリーの苗を育てる」は、目的も方法もまったく別です。家庭で最も混乱しやすいこの違いを、表で整理します。`,icon:`git-compare`,lead:`「ブロッコリースプラウトを育てる」と検索すると、二つのまったく違う話が混ざって出てくる。ここを分けておくと、失敗が減る。`,toc:[`二つの「そだてる」`,`何がちがうか`,`このサイトが扱うもの`],content:`## 二つの「そだてる」
+`,updatedAt:`2026-07-07`,references:[ie.maffYasai]},{id:`vs-seedling`,title:`食べるスプラウトと、苗を育てるのは別もの`,shortTitle:`スプラウトと育苗のちがい`,group:`はじめに`,description:`「スプラウトを育てる」と「ブロッコリーの苗を育てる」は、目的も方法もまったく別です。家庭で最も混乱しやすいこの違いを、表で整理します。`,icon:`git-compare`,lead:`「ブロッコリースプラウトを育てる」と検索すると、二つのまったく違う話が混ざって出てくる。ここを分けておくと、失敗が減る。`,toc:[`二つの「そだてる」`,`何がちがうか`,`このサイトが扱うもの`],content:`## 二つの「そだてる」
 
 家庭でスプラウトを育てようとするとき、いちばん多いつまずきが、次の二つを取り違えることである。
 
@@ -39,6 +44,8 @@ Error generating stack: `+e.message+`
 同じ「ブロッコリー」でも、この二つは目的も方法もまったく違う。検索して出てくる情報も、この二つが混ざっていることが多い。土や肥料、日光、植えかえといった言葉が出てきたら、それは大きな株を育てる育苗の話だと考えてよい。
 
 種にも違いがある。食べるスプラウトには、食用として売られている種を使う。畑にまく栽培用の種は、発芽をそろえるために薬剤で処理されていることがあり、そのまま生で食べるのには向かない。袋の表示を確かめて、スプラウト用の種を選ぶ。
+
+必要な道具も、かかる日数も違う。食べるスプラウトは、台所の片隅に置いた容器と水だけで完結し、一週間ほどで食べられる。一方の育苗は、土と日当たりのよい場所、そして一か月ほどの世話が必要になる。この二つを取り違えると、スプラウトのつもりで土に種をまいてしまったり、逆に苗を育てるつもりで暗い場所に置いてしまったりする。
 
 ## 何がちがうか
 
@@ -54,8 +61,8 @@ Error generating stack: `+e.message+`
 
 ## このサイトが扱うもの
 
-本サイトが扱うのは、前者の「食べるスプラウトの水耕」である。土も肥料も日光もいらず、台所のそばで育てられる。数日で収穫でき、特別な道具もいらないため、はじめての人でも取り組みやすい。具体的な進め方は [栽培の手順](/sprout-info/grow/) で、日ごとに追っていく。育てる途中で根元に白いものが出て心配になったら、[根毛とカビの見分け](/sprout-info/discern/) も役に立つ。
-`,updatedAt:`2026-07-05`,references:[ie.sakata,ie.nichinou]},{id:`grow`,title:`スプラウトの育て方｜約一週間の手順`,shortTitle:`栽培の手順`,group:`そだてる`,description:`ブロッコリースプラウトの水耕栽培を、浸種から緑化、収穫までの手順で解説します。用意するものと、うまく育てるコツもあわせて示します。日数や温度は目安です。`,icon:`list-checks`,lead:`ブロッコリースプラウトは、種まきから一週間ほどで収穫できる。日ごとの作業は、トップの栽培ログにも並べている。`,toc:[`用意するもの`,`日ごとの手順`,`うまく育てるコツ`],content:`## 用意するもの
+本サイトが扱うのは、前者の「食べるスプラウトの水耕」である。土も肥料も日光もいらず、台所のそばで育てられる。数日で収穫でき、特別な道具もいらないため、はじめての人でも取り組みやすい。はじめてでも失敗が少なく、道具をそろえる負担も小さい。具体的な進め方は [栽培の手順](/sprout-info/grow/) で、日ごとに追っていく。育てる途中で根元に白いものが出て心配になったら、[根毛とカビの見分け](/sprout-info/discern/) も役に立つ。
+`,updatedAt:`2026-07-07`,references:[ie.sakata,ie.nichinou]},{id:`grow`,title:`スプラウトの育て方｜約一週間の手順`,shortTitle:`栽培の手順`,group:`そだてる`,description:`ブロッコリースプラウトの水耕栽培を、浸種から緑化、収穫までの手順で解説します。用意するものと、うまく育てるコツもあわせて示します。日数や温度は目安です。`,icon:`list-checks`,lead:`ブロッコリースプラウトは、種まきから一週間ほどで収穫できる。日ごとの作業は、トップの栽培ログにも並べている。`,toc:[`用意するもの`,`日ごとの手順`,`うまく育てるコツ`,`うまくいかないとき`],content:`## 用意するもの
 
 そろえるものは多くない。
 
@@ -77,12 +84,27 @@ Error generating stack: `+e.message+`
 
 うまく育てるための要点は、温度と、清潔さと、水の扱いである。容器は使う前によく洗って清潔にし、種は食用のスプラウト用を使う。水は飲める水道水を使い、こまめに替える。収穫までの日数は種類や室温で前後し、気温が高い時期は早く、低い時期はゆっくりになる。あせらず、緑が濃くなって子葉が開くのを目安にするとよい。
 
-💡 置き場所は20〜25℃ほどの涼しいところがよい。直射日光やエアコンの風が直接あたる場所は、乾きすぎや水温の上がりすぎの原因になる。水を替えたあとは、容器にたまった水をしっかり切る。停滞した水は、いたみのもとになりやすい。根はとても繊細なので、容器に挟まないように気をつける。白い綿のようなものが出ても、多くは根毛で心配ない。見分けは [根毛とカビの見分け](/sprout-info/discern/) を参照してほしい。
-`,updatedAt:`2026-07-05`,references:[ie.sakata,ie.nichinou]},{id:`discern`,title:`根毛とカビの見分け方｜白いふわふわの正体`,shortTitle:`根毛とカビの見分け`,group:`そだてる`,description:`スプラウトの根元に出る白いふわふわは、多くが根毛で、カビと間違えて捨てられがちです。根毛とカビの見分け方を、見た目やにおい、水を吹きかけたときの反応で整理します。`,icon:`search`,lead:`スプラウトを育てていると、根元に白い綿のようなものが出て、カビだと思って捨ててしまうことがある。その多くは、根毛という正常なものである。`,toc:[`白いふわふわは根毛かもしれない`,`見分け方`,`迷ったときは`],content:`## 白いふわふわは根毛かもしれない
+💡 置き場所は20〜25℃ほどの涼しいところがよい。直射日光やエアコンの風が直接あたる場所は、乾きすぎや水温の上がりすぎの原因になる。水を替えたあとは、容器にたまった水をしっかり切る。停滞した水は、いたみのもとになりやすい。根はとても繊細なので、容器に挟まないように気をつける。
+
+## うまくいかないとき
+
+はじめてだと、思うようにいかないこともある。よくあるつまずきと、その対処をまとめる。
+
+| 症状 | よくある原因 | 対処 |
+|---|---|---|
+| 芽が出ない | 種が古い、浸種が足りない、気温が低い | 新しい種を使う。浸種でしっかり吸水させ、20〜25℃の場所に置く |
+| ひょろひょろ細く伸びる | 暗い間はこれがふつう。緑化のとき光が足りない | 茎が5cmほどになったら、直射日光を避けた明るい室内へ出す |
+| においがする、ぬめる | 水替え不足や不潔で雑菌が増えている | こまめに水を替えて切る。容器と手を清潔にする。傷んだものは処分する |
+| 根元が白くふわふわ | 多くは根毛で、正常なもの | [根毛とカビの見分け](/sprout-info/discern/) で確かめる |
+
+気温が25℃前後の高い時期は、1日2回ほど水を替えると、においやぬめりを防ぎやすい。白い綿のようなものを見つけても、あわてて捨てずに、まず根毛かカビかを見分けてほしい。
+`,updatedAt:`2026-07-07`,references:[ie.sakata,ie.nichinou]},{id:`discern`,title:`根毛とカビの見分け方｜白いふわふわの正体`,shortTitle:`根毛とカビの見分け`,group:`そだてる`,description:`スプラウトの根元に出る白いふわふわは、多くが根毛で、カビと間違えて捨てられがちです。根毛とカビの見分け方を、見た目やにおい、水を吹きかけたときの反応で整理します。`,icon:`search`,lead:`スプラウトを育てていると、根元に白い綿のようなものが出て、カビだと思って捨ててしまうことがある。その多くは、根毛という正常なものである。`,toc:[`白いふわふわは根毛かもしれない`,`見分け方`,`迷ったときは`],content:`## 白いふわふわは根毛かもしれない
 
 スプラウトの茎の根元に、白い綿のようなものが出ることがある。これを見て、カビが生えたと思い、あわてて捨ててしまう人は多い。
 
 しかし、その白いものの多くは**根毛**である。根毛は、水を吸うために根から伸びる細い毛で、水分が足りないときにできやすい。正常なはたらきであり、食べても問題ない。
+
+根毛が目立つのは、根のまわりの水分が足りないときが多い。水の量が少なかったり、乾いた風があたっていたりすると、根は水を求めて細い毛をたくさん伸ばす。逆に、水にずっとつかったままだと、今度は酸素が足りずに傷みやすくなる。水は容器の底に浅くはる程度にして、こまめに替えるとよい。
 
 ## 見分け方
 
@@ -100,8 +122,8 @@ Error generating stack: `+e.message+`
 
 ## 迷ったときは
 
-⚠️ 全体がやわらかくなっている、ぬめりがある、茶色く変色している、酸っぱい嫌なにおいがするといったときは、根毛かカビかを問わず、食べずに処分する。育てているあいだに白いものが気になったら、収穫を待たずに一度、霧吹きで確かめてみるとよい。早めに気づけば、風通しをよくして水をこまめに替えるなど、手を打ちやすい。ここでの見分けは、植物のつくりにもとづく一般的な目安であり、健康や医療の助言ではない。少しでも心配なときは、無理をしないでほしい。生食の安全については [食中毒を防ぐ衛生](/sprout-info/safety/) もあわせて読んでほしい。
-`,updatedAt:`2026-07-05`,references:[ie.maffYasai]},{id:`safety`,title:`生食スプラウトの食中毒を防ぐ｜家庭でできる衛生`,shortTitle:`食中毒を防ぐ衛生`,group:`あんぜんに食べる`,description:`生で食べるスプラウトは、ほかの野菜より食中毒のリスクが高いとされます。農林水産省の指針をもとに、なぜリスクが高いのかと、家庭でできる衛生の要点を整理します。`,icon:`shield-check`,lead:`スプラウトは生で食べることが多い。だからこそ、育て方と扱い方の衛生が大切になる。この点は、公的な指針にもとづいて確かめておきたい。`,toc:[`なぜリスクが高いのか`,`家庭でできること`,`迷ったら食べない`],content:`## なぜリスクが高いのか
+⚠️ 全体がやわらかくなっている、ぬめりがある、茶色く変色している、酸っぱい嫌なにおいがするといったときは、根毛かカビかを問わず、食べずに処分する。育てているあいだに白いものが気になったら、収穫を待たずに一度、霧吹きで確かめてみるとよい。早めに気づけば、風通しをよくして水をこまめに替えるなど、手を打ちやすい。軽いカビらしきものを取り除いて食べ続けたくなることもあるが、カビは目に見えない部分にも広がっていることがあるため、心配なときはその株ごと処分するのが安全である。ここでの見分けは、植物のつくりにもとづく一般的な目安であり、健康や医療の助言ではない。少しでも心配なときは、無理をしないでほしい。生食の安全については [食中毒を防ぐ衛生](/sprout-info/safety/) もあわせて読んでほしい。
+`,updatedAt:`2026-07-07`,references:[ie.maffYasai]},{id:`safety`,title:`生食スプラウトの食中毒を防ぐ｜家庭でできる衛生`,shortTitle:`食中毒を防ぐ衛生`,group:`あんぜんに食べる`,description:`生で食べるスプラウトは、ほかの野菜より食中毒のリスクが高いとされます。農林水産省の指針をもとに、なぜリスクが高いのかと、家庭でできる衛生の要点を整理します。`,icon:`shield-check`,lead:`スプラウトは生で食べることが多い。だからこそ、育て方と扱い方の衛生が大切になる。この点は、公的な指針にもとづいて確かめておきたい。`,toc:[`なぜリスクが高いのか`,`家庭でできること`,`迷ったら食べない`],content:`## なぜリスクが高いのか
 
 農林水産省の衛生管理の指針によれば、スプラウトはほかの野菜にくらべて、食中毒のリスクが高い食品とされる。理由はいくつか重なっている。
 
@@ -124,10 +146,20 @@ Error generating stack: `+e.message+`
 
 収穫したスプラウトは、食べる前に流水でよく洗う。種の皮が残っていると口ざわりが悪く、汚れも残りやすい。洗ったあとは水気をよく切ってから食べる。
 
+家庭で気をつける点を、場面ごとにまとめると次のようになる。
+
+| 気をつける場面 | 具体的な対策 |
+|---|---|
+| 水 | 飲める水道水を使う。こまめに替えて、容器にためたままにしない |
+| 道具と容器 | 使う前によく洗って清潔にする |
+| 手と場所 | 作業の前後で手を洗い、育てる場所を清潔に保つ |
+| 収穫したあと | 流水で洗って水気を切り、冷蔵して新鮮なうちに食べる |
+| 体調や体質 | 妊娠中、高齢、幼児、体調のすぐれないときは加熱する選び方も |
+
 ## 迷ったら食べない
 
 ⚠️ においやぬめり、変色があるものは、食べずに処分する。妊娠中の人、高齢の人、小さな子ども、体調のすぐれない人は、生で食べるのを避けて加熱する選び方もある。心配なときは、加熱調理してから食べると、生で食べるよりもリスクを下げられる。育てる容器や調理の道具を清潔に保つことも、安全につながる。生食の判断に迷うときは、無理をしないでほしい。安全に関わることは、最新の公的な情報に従うのが確実である。
-`,updatedAt:`2026-07-05`,references:[ie.maffShishin,ie.maffYasai]},{id:`choose`,title:`スプラウトの選び方・保存・調理`,shortTitle:`選び方・保存・調理`,group:`あんぜんに食べる`,description:`市販のスプラウトの選び方、買ったあとや育てたあとの保存、そして生かして食べる調理のこつを整理します。健康効果はうたわず、実用の目安を示します。`,icon:`utensils`,lead:`育てたスプラウトも、買ってきたスプラウトも、新鮮なうちに食べるのがいちばんである。選び方と保存、調理のこつをまとめる。`,toc:[`選び方`,`保存`,`調理のこつ`],content:`## 選び方
+`,updatedAt:`2026-07-07`,references:[ie.maffShishin,ie.maffYasai]},{id:`choose`,title:`スプラウトの選び方・保存・調理`,shortTitle:`選び方・保存・調理`,group:`あんぜんに食べる`,description:`市販のスプラウトの選び方、買ったあとや育てたあとの保存、そして生かして食べる調理のこつを整理します。健康効果はうたわず、実用の目安を示します。`,icon:`utensils`,lead:`育てたスプラウトも、買ってきたスプラウトも、新鮮なうちに食べるのがいちばんである。選び方と保存、調理のこつをまとめる。`,toc:[`選び方`,`保存`,`調理のこつ`],content:`## 選び方
 
 市販のスプラウトを選ぶときは、見た目とにおいを手がかりにする。
 
@@ -151,12 +183,21 @@ Error generating stack: `+e.message+`
 
 ## 調理のこつ
 
-スプラウトは、生のままサラダやサンドイッチ、丼の彩りに使いやすい。ブロッコリースプラウトはくせが少ないのでそのままでも食べやすく、かいわれのように辛みのある種類は量を加減するとよい。彩りとして、冷ややっこやスープの上にのせる使い方もある。
+スプラウトは、生のままサラダやサンドイッチ、丼の彩りに使いやすい。食べ方の目安をまとめると次のようになる。
 
-ブロッコリースプラウトは、よく噛んだり細かく刻んだりして細胞をこわすと、成分ができるのを助けるとされる。汁物やあたたかい料理に使うときは、器に盛ってから最後にのせ、加熱しすぎないようにするとよい。
+| 食べ方 | ポイント |
+|---|---|
+| サラダ | 洗って水気を切り、そのまま。ドレッシングは食べる直前にかける |
+| サンドイッチ・丼の彩り | 仕上げにのせて、しゃきっとした食感を生かす |
+| 冷ややっこ・スープ | 器に盛ってから最後にのせ、余熱程度にとどめる |
+| 辛みのある種類（かいわれ・マスタード） | 量を加減し、薬味のように使う |
+
+ブロッコリースプラウトはくせが少ないのでそのままでも食べやすく、よく噛んだり細かく刻んだりして細胞をこわすと、成分ができるのを助けるとされる。汁物やあたたかい料理に使うときは、器に盛ってから最後にのせ、加熱しすぎないようにするとよい。
+
+スプラウトは冷凍には向かない。凍らせると細胞がこわれ、解凍したときに水っぽくなって食感が損なわれる。使う分を、新鮮なうちに食べきるのがよい。
 
 ⚠️ ぬめりが出たもの、酸っぱいにおいがするもの、変色したものは、加熱してもしなくても食べずに処分する。
-`,updatedAt:`2026-07-05`,references:[ie.maffYasai]},{id:`faq`,title:`スプラウト栽培のよくある疑問`,shortTitle:`よくある疑問`,group:`疑問`,description:`白いふわふわの正体、育つまでの日数、生で食べる安全、健康効果についてなど、スプラウト栽培でよく寄せられる疑問に、公的な情報にもとづいて答えます。`,icon:`help-circle`,lead:`スプラウトを育てるときによく出てくる疑問に、各ページの要点で答える。`,toc:[`育てるときの疑問`,`食べるときの疑問`,`成分についての疑問`],content:`## 育てるときの疑問
+`,updatedAt:`2026-07-07`,references:[ie.maffYasai]},{id:`faq`,title:`スプラウト栽培のよくある疑問`,shortTitle:`よくある疑問`,group:`疑問`,description:`白いふわふわの正体、育つまでの日数、生で食べる安全、健康効果についてなど、スプラウト栽培でよく寄せられる疑問に、公的な情報にもとづいて答えます。`,icon:`help-circle`,lead:`スプラウトを育てるときによく出てくる疑問に、各ページの要点で答える。`,toc:[`育てるときの疑問`,`食べるときの疑問`,`成分についての疑問`],content:`## 育てるときの疑問
 
 **根元の白いふわふわはカビですか。**
 
@@ -170,11 +211,19 @@ Error generating stack: `+e.message+`
 
 種が古い、水が足りない、温度が低すぎるといった原因が考えられます。浸種でしっかり吸水させ、20〜25℃くらいの場所で、乾かないように毎日水をやってみてください。それでもうまくいかないときは、新しい種で試すのも一つの方法です。
 
+**一度収穫したあと、また生えてきますか。**
+
+ブロッコリースプラウトやかいわれ大根は、一度切ると同じ株からは伸びず、繰り返しの収穫はできません。一方、豆苗（えんどう豆の新芽）は、根を残して切ると再び伸びて、二度目の収穫ができます。
+
 ## 食べるときの疑問
 
 **生で食べても大丈夫ですか。**
 
 スプラウトは生で食べることが多いですが、ほかの野菜より食中毒のリスクが高いとされます。清潔な水と道具を使い、手を洗い、新鮮なうちに食べることが大切です。においやぬめり、変色があれば食べないでください。くわしくは [食中毒を防ぐ衛生](/sprout-info/safety/) をご覧ください。
+
+**買ってきたスプラウトは、どのくらい日もちしますか。**
+
+日もちはしません。冷蔵庫で保存し、二、三日を目安に食べきってください。市販のパックには消費期限が書かれていることが多いので、それに従います。育てたものは、収穫した日を覚えておくとよいでしょう。
 
 ## 成分についての疑問
 
@@ -183,7 +232,7 @@ Error generating stack: `+e.message+`
 ブロッコリースプラウトはスルフォラファンという成分のもとを含むことで知られますが、その効果には研究途上のものが多くあります。本サイトは特定の健康効果や病気の予防をうたわず、成分の量や倍率、特定の商品を宣伝することもしません。栽培と安全な食べ方を主に扱っています。
 
 📖 本サイトの記述は、農林水産省や種苗メーカーの公開情報を参照し、事実を確認したうえで、運営者が自分の言葉でまとめたものです。栽培の日数や温度は目安で、環境によって変わります。
-`,updatedAt:`2026-07-05`,references:[ie.maffShishin,ie.sakata]}];function ae(e){return e.replace(/&/g,`&amp;`).replace(/</g,`&lt;`).replace(/>/g,`&gt;`).replace(/"/g,`&quot;`)}function oe(e){return!e||e.length===0?``:`<aside class="references" aria-label="参考にした情報源"><h2 class="references-h">参考にした情報源</h2><ul class="references-list">${e.map(e=>`<li><a href="${ae(e.url)}" target="_blank" rel="noopener noreferrer">${ae(e.label)}</a><span class="ref-pub">${ae(e.publisher)}</span></li>`).join(``)}</ul><p class="references-note">出典は事実確認のために参照したもので、本文は運営者が自分の言葉でまとめています。栽培の日数や温度は目安で、環境によって変わります。生食のスプラウトは食中毒のリスクがあるため、衛生については公的機関の情報もあわせてご確認ください。</p></aside>`}var se={sprout:`<path d="M7 20h10"/><path d="M10 20c5.5-2.5.8-6.4 3-10"/><path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3.7-4.7 2.1-.3 3.9-.3 6.2 1.3"/><path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2"/>`,"git-compare":`<circle cx="18" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><path d="M13 6h3a2 2 0 0 1 2 2v7"/><path d="M11 18H8a2 2 0 0 1-2-2V9"/>`,"list-checks":`<path d="m3 17 2 2 4-4"/><path d="m3 7 2 2 4-4"/><path d="M13 6h8"/><path d="M13 12h8"/><path d="M13 18h8"/>`,search:`<circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>`,"shield-check":`<path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/>`,utensils:`<path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Z"/><path d="M21 15v7"/>`,"help-circle":`<circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/>`};function ce(e,t=24){let n=se[e];return n?`<svg xmlns="http://www.w3.org/2000/svg" width="${t}" height="${t}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${n}</svg>`:``}function le(e){let t=[],n=/\*\*([\s\S]+?)\*\*|\[([^\]]+)\]\(([^)]+)\)/g,r=0,i;for(;(i=n.exec(e))!==null;)i.index>r&&t.push({type:`text`,value:e.slice(r,i.index)}),i[1]===void 0?t.push({type:`link`,href:i[3],children:le(i[2])}):t.push({type:`bold`,children:le(i[1])}),r=i.index+i[0].length;return r<e.length&&t.push({type:`text`,value:e.slice(r)}),t}var ue=[{when:`準備`,title:`種を水にひたす（浸種）`,detail:`種を4〜5倍の量の水に4〜5時間ほどひたして、吸水させる。`},{when:`Day 1`,title:`種をまいて遮光する`,detail:`容器に種を敷き（皿の面積の8割ほど）、皿より少し上まで水を入れ、箱やアルミで覆って暗くする。`},{when:`Day 2〜4`,title:`発芽・毎日水をかえる`,detail:`発芽が始まる。1日1回、水をやさしくかえて切る。濁ったり気温が高い日はその都度かえる。`},{when:`Day 5`,title:`茎が伸びる`,detail:`茎がのびてくる。遮光を続けて、20〜25℃ほどの涼しい場所に置く。`},{when:`Day 6`,title:`明るい場所へ出す（緑化）`,detail:`茎が約5cmになったら箱から出し、直射日光を避けた明るい室内へ。葉が緑色になっていく。`},{when:`Day 7〜10`,title:`収穫する`,detail:`緑が濃くなり子葉が開いたら収穫の目安。根を切り、水道水で洗って種の皮を落とす。`}],de=[{aspect:`見た目`,hair:`茎の根元に、同じ向きにそろった純白の細い毛。`,mold:`灰色や黒っぽく、クモの巣のように不規則に広がる。`},{aspect:`水を吹きかけると`,hair:`水を吸ってすっと寝て、白さが消える。`,mold:`水をはじき、網目のように残る。`},{aspect:`さわると`,hair:`茎にしっかりついていて、取れない。`,mold:`付き方が弱く、触れると崩れ落ちる。`},{aspect:`におい`,hair:`とくににおいはない。`,mold:`カビ臭さや、すっぱい嫌なにおいがする。`},{aspect:`食べられるか`,hair:`正常なので食べてよい。`,mold:`食べない。その株は処分する。`}],w={hair:{label:`根毛（正常）`,hint:`水を吹くと寝る・無臭・しっかりついている`},mold:{label:`カビ（異常）`,hint:`水をはじく・嫌なにおい・崩れ落ちる`}},T=e((e=>{var t=Symbol.for(`react.transitional.element`),n=Symbol.for(`react.fragment`);function r(e,n,r){var i=null;if(r!==void 0&&(i=``+r),n.key!==void 0&&(i=``+n.key),`key`in n)for(var a in r={},n)a!==`key`&&(r[a]=n[a]);else r=n;return n=r.ref,{$$typeof:t,type:e,key:i,ref:n===void 0?null:n,props:r}}e.Fragment=n,e.jsx=r,e.jsxs=r})),E=e(((e,t)=>{t.exports=T()}))(),D=`/sprout-info`,fe=`スプラウト栽培ノート`;function pe({name:e,size:t=24}){return(0,E.jsx)(`span`,{className:`section-icon`,dangerouslySetInnerHTML:{__html:ce(e,t)}})}function O(){return(0,E.jsxs)(`svg`,{className:`brand-logo`,viewBox:`0 0 64 64`,xmlns:`http://www.w3.org/2000/svg`,"aria-hidden":`true`,children:[(0,E.jsx)(`rect`,{width:`64`,height:`64`,rx:`16`,fill:`#eaf3e2`}),(0,E.jsx)(`path`,{d:`M32 52 V30`,fill:`none`,stroke:`#3f7d34`,strokeWidth:`4`,strokeLinecap:`round`}),(0,E.jsx)(`path`,{d:`M32 34 C22 34 15 28 15 19 C25 19 32 25 32 34 Z`,fill:`#5aa64a`}),(0,E.jsx)(`path`,{d:`M32 30 C42 30 49 24 49 15 C39 15 32 21 32 30 Z`,fill:`#77c05f`}),(0,E.jsx)(`circle`,{cx:`44`,cy:`44`,r:`4.5`,fill:`#8fd0e6`})]})}function k(){if(typeof window>`u`)return`/`;let e=window.location.pathname;return e.startsWith(D)?e.slice(12)||`/`:e}function A(e){let t=D+(e.startsWith(`/`)?e:`/`+e);window.history.pushState({},``,t),window.dispatchEvent(new PopStateEvent(`popstate`))}function me(e,t){return`section-${t}`}function he(e){return ge(le(e))}function ge(e){return e.map((e,t)=>{if(e.type===`text`)return(0,E.jsx)(`span`,{children:e.value},t);if(e.type===`bold`)return(0,E.jsx)(`strong`,{children:ge(e.children)},t);let n=e.href;if(n.startsWith(`/sprout-info/`)||n.startsWith(`/sprout-info/`))return(0,E.jsx)(`a`,{href:n,onClick:e=>{e.preventDefault(),A(n.replace(D,``))},children:ge(e.children)},t);let r=/^https?:\/\//.test(n);return(0,E.jsx)(`a`,{href:n,target:r?`_blank`:void 0,rel:r?`noopener noreferrer`:void 0,children:ge(e.children)},t)})}function _e(e){let t=e.split(`
+`,updatedAt:`2026-07-07`,references:[ie.maffShishin,ie.sakata]}];function ae(e){return e.replace(/&/g,`&amp;`).replace(/</g,`&lt;`).replace(/>/g,`&gt;`).replace(/"/g,`&quot;`)}function oe(e){return!e||e.length===0?``:`<aside class="references" aria-label="参考にした情報源"><h2 class="references-h">参考にした情報源</h2><ul class="references-list">${e.map(e=>`<li><a href="${ae(e.url)}" target="_blank" rel="noopener noreferrer">${ae(e.label)}</a><span class="ref-pub">${ae(e.publisher)}</span></li>`).join(``)}</ul><p class="references-note">出典は事実確認のために参照したもので、本文は運営者が自分の言葉でまとめています。栽培の日数や温度は目安で、環境によって変わります。生食のスプラウトは食中毒のリスクがあるため、衛生については公的機関の情報もあわせてご確認ください。</p></aside>`}var se={sprout:`<path d="M7 20h10"/><path d="M10 20c5.5-2.5.8-6.4 3-10"/><path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3.7-4.7 2.1-.3 3.9-.3 6.2 1.3"/><path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2"/>`,"git-compare":`<circle cx="18" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><path d="M13 6h3a2 2 0 0 1 2 2v7"/><path d="M11 18H8a2 2 0 0 1-2-2V9"/>`,"list-checks":`<path d="m3 17 2 2 4-4"/><path d="m3 7 2 2 4-4"/><path d="M13 6h8"/><path d="M13 12h8"/><path d="M13 18h8"/>`,search:`<circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>`,"shield-check":`<path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/>`,utensils:`<path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Z"/><path d="M21 15v7"/>`,"help-circle":`<circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/>`};function ce(e,t=24){let n=se[e];return n?`<svg xmlns="http://www.w3.org/2000/svg" width="${t}" height="${t}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${n}</svg>`:``}function le(e){let t=[],n=/\*\*([\s\S]+?)\*\*|\[([^\]]+)\]\(([^)]+)\)/g,r=0,i;for(;(i=n.exec(e))!==null;)i.index>r&&t.push({type:`text`,value:e.slice(r,i.index)}),i[1]===void 0?t.push({type:`link`,href:i[3],children:le(i[2])}):t.push({type:`bold`,children:le(i[1])}),r=i.index+i[0].length;return r<e.length&&t.push({type:`text`,value:e.slice(r)}),t}var ue=[{when:`準備`,title:`種を水にひたす（浸種）`,detail:`種を4〜5倍の量の水に4〜5時間ほどひたして、吸水させる。`},{when:`Day 1`,title:`種をまいて遮光する`,detail:`容器に種を敷き（皿の面積の8割ほど）、皿より少し上まで水を入れ、箱やアルミで覆って暗くする。`},{when:`Day 2〜4`,title:`発芽・毎日水をかえる`,detail:`発芽が始まる。1日1回、水をやさしくかえて切る。濁ったり気温が高い日はその都度かえる。`},{when:`Day 5`,title:`茎が伸びる`,detail:`茎がのびてくる。遮光を続けて、20〜25℃ほどの涼しい場所に置く。`},{when:`Day 6`,title:`明るい場所へ出す（緑化）`,detail:`茎が約5cmになったら箱から出し、直射日光を避けた明るい室内へ。葉が緑色になっていく。`},{when:`Day 7〜10`,title:`収穫する`,detail:`緑が濃くなり子葉が開いたら収穫の目安。根を切り、水道水で洗って種の皮を落とす。`}],de=[{aspect:`見た目`,hair:`茎の根元に、同じ向きにそろった純白の細い毛。`,mold:`灰色や黒っぽく、クモの巣のように不規則に広がる。`},{aspect:`水を吹きかけると`,hair:`水を吸ってすっと寝て、白さが消える。`,mold:`水をはじき、網目のように残る。`},{aspect:`さわると`,hair:`茎にしっかりついていて、取れない。`,mold:`付き方が弱く、触れると崩れ落ちる。`},{aspect:`におい`,hair:`とくににおいはない。`,mold:`カビ臭さや、すっぱい嫌なにおいがする。`},{aspect:`食べられるか`,hair:`正常なので食べてよい。`,mold:`食べない。その株は処分する。`}],w={hair:{label:`根毛（正常）`,hint:`水を吹くと寝る・無臭・しっかりついている`},mold:{label:`カビ（異常）`,hint:`水をはじく・嫌なにおい・崩れ落ちる`}},T=e((e=>{var t=Symbol.for(`react.transitional.element`),n=Symbol.for(`react.fragment`);function r(e,n,r){var i=null;if(r!==void 0&&(i=``+r),n.key!==void 0&&(i=``+n.key),`key`in n)for(var a in r={},n)a!==`key`&&(r[a]=n[a]);else r=n;return n=r.ref,{$$typeof:t,type:e,key:i,ref:n===void 0?null:n,props:r}}e.Fragment=n,e.jsx=r,e.jsxs=r})),E=e(((e,t)=>{t.exports=T()}))(),D=`/sprout-info`,fe=`スプラウト栽培ノート`;function pe({name:e,size:t=24}){return(0,E.jsx)(`span`,{className:`section-icon`,dangerouslySetInnerHTML:{__html:ce(e,t)}})}function O(){return(0,E.jsxs)(`svg`,{className:`brand-logo`,viewBox:`0 0 64 64`,xmlns:`http://www.w3.org/2000/svg`,"aria-hidden":`true`,children:[(0,E.jsx)(`rect`,{width:`64`,height:`64`,rx:`16`,fill:`#eaf3e2`}),(0,E.jsx)(`path`,{d:`M32 52 V30`,fill:`none`,stroke:`#3f7d34`,strokeWidth:`4`,strokeLinecap:`round`}),(0,E.jsx)(`path`,{d:`M32 34 C22 34 15 28 15 19 C25 19 32 25 32 34 Z`,fill:`#5aa64a`}),(0,E.jsx)(`path`,{d:`M32 30 C42 30 49 24 49 15 C39 15 32 21 32 30 Z`,fill:`#77c05f`}),(0,E.jsx)(`circle`,{cx:`44`,cy:`44`,r:`4.5`,fill:`#8fd0e6`})]})}function k(){if(typeof window>`u`)return`/`;let e=window.location.pathname;return e.startsWith(D)?e.slice(12)||`/`:e}function A(e){let t=D+(e.startsWith(`/`)?e:`/`+e);window.history.pushState({},``,t),window.dispatchEvent(new PopStateEvent(`popstate`))}function me(e,t){return`section-${t}`}function he(e){return ge(le(e))}function ge(e){return e.map((e,t)=>{if(e.type===`text`)return(0,E.jsx)(`span`,{children:e.value},t);if(e.type===`bold`)return(0,E.jsx)(`strong`,{children:ge(e.children)},t);let n=e.href;if(n.startsWith(`/sprout-info/`)||n.startsWith(`/sprout-info/`))return(0,E.jsx)(`a`,{href:n,onClick:e=>{e.preventDefault(),A(n.replace(D,``))},children:ge(e.children)},t);let r=/^https?:\/\//.test(n);return(0,E.jsx)(`a`,{href:n,target:r?`_blank`:void 0,rel:r?`noopener noreferrer`:void 0,children:ge(e.children)},t)})}function _e(e){let t=e.split(`
 `),n=[],r=0,i=0,a=0;for(;r<t.length;){let e=t[r].trim();if(e===``){r++;continue}if(e.startsWith(`## `)){let t=e.slice(3);n.push((0,E.jsx)(`h2`,{id:me(t,a++),className:`content-h2`,children:he(t)},i++)),r++;continue}if(e.startsWith(`### `)){n.push((0,E.jsx)(`h3`,{className:`content-h3`,children:he(e.slice(4))},i++)),r++;continue}if(e.startsWith(`|`)&&e.endsWith(`|`)){let e=[];for(;r<t.length&&t[r].trim().startsWith(`|`)&&t[r].trim().endsWith(`|`);)e.push(t[r].trim()),r++;if(e.length>=2){let t=e.map(e=>e.split(`|`).slice(1,-1).map(e=>e.trim())),r=e=>e.every(e=>/^[-:]+$/.test(e)),a=t[0],o=t.slice(1).filter(e=>!r(e));n.push((0,E.jsx)(`div`,{className:`content-table-wrap`,children:(0,E.jsxs)(`table`,{className:`content-table`,children:[(0,E.jsx)(`thead`,{children:(0,E.jsx)(`tr`,{children:a.map((e,t)=>(0,E.jsx)(`th`,{children:he(e)},t))})}),(0,E.jsx)(`tbody`,{children:o.map((e,t)=>(0,E.jsx)(`tr`,{children:e.map((e,t)=>(0,E.jsx)(`td`,{children:he(e)},t))},t))})]})},i++))}continue}if(/^\d+\.\s/.test(e)){let e=[];for(;r<t.length&&/^\d+\.\s/.test(t[r].trim());)e.push(t[r].trim().replace(/^\d+\.\s/,``)),r++;n.push((0,E.jsx)(`ol`,{className:`content-ol`,children:e.map((e,t)=>(0,E.jsx)(`li`,{children:he(e)},t))},i++));continue}if(e.startsWith(`- `)){let e=[];for(;r<t.length&&t[r].trim().startsWith(`- `);)e.push(t[r].trim().slice(2)),r++;n.push((0,E.jsx)(`ul`,{className:`content-ul`,children:e.map((e,t)=>(0,E.jsx)(`li`,{children:he(e)},t))},i++));continue}if(e.startsWith(`💡 `)){n.push((0,E.jsx)(`p`,{className:`callout callout-tip`,children:he(e.slice(2).trim())},i++)),r++;continue}if(e.startsWith(`⚠️ `)){n.push((0,E.jsx)(`p`,{className:`callout callout-warning`,children:he(e.slice(2).trim())},i++)),r++;continue}if(e.startsWith(`📖 `)){n.push((0,E.jsx)(`p`,{className:`callout callout-info`,children:he(e.slice(2).trim())},i++)),r++;continue}n.push((0,E.jsx)(`p`,{className:`content-p`,children:he(e)},i++)),r++}return n}function ve(e){let t=/^(\d{4})-(\d{2})-(\d{2})$/.exec(e);return t?`${t[1]}年${parseInt(t[2],10)}月${parseInt(t[3],10)}日`:e}function ye(){let[e,t]=(0,l.useState)(!1);return(0,E.jsx)(`header`,{className:`site-header`,children:(0,E.jsxs)(`div`,{className:`site-header-inner`,children:[(0,E.jsxs)(`a`,{href:`${D}/`,className:`site-brand`,onClick:e=>{e.preventDefault(),A(`/`),t(!1)},children:[(0,E.jsx)(O,{}),(0,E.jsx)(`span`,{children:fe})]}),(0,E.jsx)(`button`,{className:`nav-toggle`,"aria-label":e?`メニューを閉じる`:`メニューを開く`,onClick:()=>t(!e),children:e?(0,E.jsx)(re,{size:20}):(0,E.jsx)(ne,{size:20})}),(0,E.jsx)(`nav`,{className:`site-nav ${e?`open`:``}`,"aria-label":`メインナビゲーション`,children:C.map(e=>(0,E.jsxs)(`a`,{href:`${D}/${e.id}/`,onClick:n=>{n.preventDefault(),A(`/${e.id}/`),t(!1)},children:[(0,E.jsx)(`span`,{className:`nav-emoji`,children:(0,E.jsx)(pe,{name:e.icon,size:17})}),(0,E.jsx)(`span`,{children:e.shortTitle})]},e.id))})]})})}function be(){return(0,E.jsxs)(`section`,{className:`grow`,"aria-label":`約1週間の栽培の手順`,children:[(0,E.jsxs)(`div`,{className:`grow-head`,children:[(0,E.jsx)(`h1`,{className:`grow-title`,children:`約1週間で、新芽を育てる`}),(0,E.jsx)(`p`,{className:`grow-sub`,children:`ブロッコリースプラウトを、種まきから収穫まで日ごとに。水と容器があれば台所のそばで育てられます。`})]}),(0,E.jsx)(`ol`,{className:`stepper`,children:ue.map((e,t)=>(0,E.jsxs)(`li`,{className:`step`,children:[(0,E.jsx)(`div`,{className:`step-chip`,children:e.when}),(0,E.jsxs)(`div`,{className:`step-body`,children:[(0,E.jsx)(`div`,{className:`step-title`,children:e.title}),(0,E.jsx)(`p`,{className:`step-detail`,children:e.detail})]})]},t))}),(0,E.jsxs)(`p`,{className:`grow-foot`,children:[`日数や温度は目安で、種類や室温で前後します。くわしくは `,(0,E.jsx)(`a`,{href:`${D}/grow/`,onClick:e=>{e.preventDefault(),A(`/grow/`)},children:`栽培の手順`}),` へ。`]})]})}function xe(){return(0,E.jsxs)(`section`,{className:`discern`,"aria-label":`根毛とカビの見分け`,children:[(0,E.jsx)(`h2`,{className:`discern-h`,children:`白いふわふわ、根毛？カビ？`}),(0,E.jsx)(`p`,{className:`discern-lead`,children:`根元に出る白い綿の多くは、水を吸うための根毛で、正常なものです。霧吹きで見分けられます。`}),(0,E.jsxs)(`div`,{className:`discern-cols`,children:[(0,E.jsxs)(`div`,{className:`discern-col discern-ok`,children:[(0,E.jsxs)(`div`,{className:`discern-col-head`,children:[(0,E.jsx)(x,{size:18,"aria-hidden":`true`}),` `,w.hair.label]}),(0,E.jsx)(`div`,{className:`discern-col-hint`,children:w.hair.hint})]}),(0,E.jsxs)(`div`,{className:`discern-col discern-ng`,children:[(0,E.jsxs)(`div`,{className:`discern-col-head`,children:[(0,E.jsx)(re,{size:18,"aria-hidden":`true`}),` `,w.mold.label]}),(0,E.jsx)(`div`,{className:`discern-col-hint`,children:w.mold.hint})]})]}),(0,E.jsx)(`div`,{className:`discern-table-wrap`,children:(0,E.jsxs)(`table`,{className:`discern-table`,children:[(0,E.jsx)(`thead`,{children:(0,E.jsxs)(`tr`,{children:[(0,E.jsx)(`th`,{}),(0,E.jsx)(`th`,{children:`根毛（正常）`}),(0,E.jsx)(`th`,{children:`カビ（異常）`})]})}),(0,E.jsx)(`tbody`,{children:de.map((e,t)=>(0,E.jsxs)(`tr`,{children:[(0,E.jsx)(`th`,{scope:`row`,children:e.aspect}),(0,E.jsx)(`td`,{children:e.hair}),(0,E.jsx)(`td`,{children:e.mold})]},t))})]})}),(0,E.jsxs)(`p`,{className:`discern-foot`,children:[(0,E.jsx)(te,{size:14,"aria-hidden":`true`}),` 霧吹きで水を吹くと、根毛は寝て消え、カビははじいて残ります。くわしくは `,(0,E.jsx)(`a`,{href:`${D}/discern/`,onClick:e=>{e.preventDefault(),A(`/discern/`)},children:`根毛とカビの見分け`}),` へ。`]})]})}var Se=[{label:`はじめに`,ids:[`about`,`vs-seedling`]},{label:`そだてる`,ids:[`grow`,`discern`]},{label:`あんぜんに食べる`,ids:[`safety`,`choose`]},{label:`疑問`,ids:[`faq`]}];function Ce(){return(0,l.useEffect)(()=>{document.title=`${fe}｜約1週間で育てる手順と根毛・カビの見分け`,window.scrollTo(0,0)},[]),(0,E.jsxs)(E.Fragment,{children:[(0,E.jsx)(be,{}),(0,E.jsx)(xe,{}),(0,E.jsx)(`nav`,{className:`home-nav`,"aria-label":`記事を読む`,children:Se.map(e=>(0,E.jsxs)(`div`,{className:`home-nav-group`,children:[(0,E.jsx)(`div`,{className:`home-nav-label`,children:e.label}),(0,E.jsx)(`div`,{className:`home-nav-links`,children:e.ids.map(e=>{let t=C.find(t=>t.id===e);return t?(0,E.jsxs)(`a`,{href:`${D}/${e}/`,className:`home-nav-link`,onClick:t=>{t.preventDefault(),A(`/${e}/`)},children:[(0,E.jsx)(`span`,{className:`home-nav-ico`,"aria-hidden":`true`,children:(0,E.jsx)(pe,{name:t.icon,size:20})}),(0,E.jsxs)(`span`,{className:`home-nav-text`,children:[(0,E.jsx)(`span`,{className:`home-nav-title`,children:t.shortTitle}),(0,E.jsx)(`span`,{className:`home-nav-desc`,children:t.description})]}),(0,E.jsx)(ee,{size:16,"aria-hidden":`true`})]},e):null})})]},e.label))}),(0,E.jsxs)(`div`,{className:`home-trust`,children:[(0,E.jsx)(`h2`,{children:`このサイトの方針`}),(0,E.jsxs)(`ul`,{children:[(0,E.jsxs)(`li`,{children:[(0,E.jsx)(`strong`,{children:`公式情報で確かめる`}),`：栽培は種苗メーカーの育て方、衛生は農林水産省の指針にもとづきます。`]}),(0,E.jsxs)(`li`,{children:[(0,E.jsx)(`strong`,{children:`健康効果はうたいません`}),`：成分の効果は研究途上のものが多く、数値や倍率、特定の商品を宣伝しません。`]}),(0,E.jsxs)(`li`,{children:[(0,E.jsx)(`strong`,{children:`安全を第一に`}),`：生食のスプラウトは食中毒のリスクがあります。においや変色があれば食べないでください。`]})]})]})]})}function we({items:e}){return e.length?(0,E.jsxs)(`nav`,{className:`toc`,children:[(0,E.jsxs)(`div`,{className:`toc-title`,children:[(0,E.jsx)(S,{size:16}),` 目次`]}),(0,E.jsx)(`ol`,{className:`toc-list`,children:e.map((e,t)=>(0,E.jsx)(`li`,{children:(0,E.jsx)(`a`,{href:`#${me(e,t)}`,children:e})},e))})]}):null}function Te({currentTitle:e}){return(0,E.jsxs)(`nav`,{className:`breadcrumb`,"aria-label":`パンくずリスト`,children:[(0,E.jsx)(`a`,{href:`${D}/`,onClick:e=>{e.preventDefault(),A(`/`)},children:fe}),(0,E.jsx)(ee,{size:14,className:`breadcrumb-sep`,"aria-hidden":`true`}),(0,E.jsx)(`span`,{className:`breadcrumb-current`,children:e})]})}function Ee({currentId:e}){let t=C.findIndex(t=>t.id===e);if(t===-1)return null;let n=t>0?C[t-1]:null,r=t<C.length-1?C[t+1]:null;return!n&&!r?null:(0,E.jsxs)(`nav`,{className:`chapter-nav`,"aria-label":`記事ナビゲーション`,children:[n?(0,E.jsxs)(`a`,{href:`${D}/${n.id}/`,className:`chapter-nav-link chapter-nav-prev`,onClick:e=>{e.preventDefault(),A(`/${n.id}/`)},children:[(0,E.jsxs)(`span`,{className:`chapter-nav-label`,children:[(0,E.jsx)(y,{size:14,"aria-hidden":`true`}),` 前の記事`]}),(0,E.jsxs)(`span`,{className:`chapter-nav-title`,children:[(0,E.jsx)(pe,{name:n.icon,size:16}),` `,n.shortTitle]})]}):(0,E.jsx)(`span`,{className:`chapter-nav-spacer`}),r?(0,E.jsxs)(`a`,{href:`${D}/${r.id}/`,className:`chapter-nav-link chapter-nav-next`,onClick:e=>{e.preventDefault(),A(`/${r.id}/`)},children:[(0,E.jsxs)(`span`,{className:`chapter-nav-label`,children:[`次の記事 `,(0,E.jsx)(ee,{size:14,"aria-hidden":`true`})]}),(0,E.jsxs)(`span`,{className:`chapter-nav-title`,children:[(0,E.jsx)(pe,{name:r.icon,size:16}),` `,r.shortTitle]})]}):(0,E.jsx)(`span`,{className:`chapter-nav-spacer`})]})}function De({currentId:e}){let t=C.filter(t=>t.id!==e);return(0,E.jsxs)(`aside`,{className:`related-sections`,"aria-label":`ほかの記事`,children:[(0,E.jsx)(`h2`,{children:`ほかの記事も読む`}),(0,E.jsx)(`div`,{className:`related-grid`,children:t.map(e=>(0,E.jsxs)(`a`,{href:`${D}/${e.id}/`,className:`related-card`,onClick:t=>{t.preventDefault(),A(`/${e.id}/`)},children:[(0,E.jsx)(`span`,{className:`related-emoji`,"aria-hidden":`true`,children:(0,E.jsx)(pe,{name:e.icon,size:20})}),(0,E.jsx)(`span`,{className:`related-title`,children:e.shortTitle})]},e.id))})]})}function Oe({article:e}){return(0,l.useEffect)(()=>{document.title=`${e.title} | ${fe}`;let t=window.location.hash;t&&t.length>1?requestAnimationFrame(()=>{let e=document.getElementById(decodeURIComponent(t.slice(1)));e?e.scrollIntoView({behavior:`auto`,block:`start`}):window.scrollTo(0,0)}):window.scrollTo(0,0)},[e.id,e.title]),(0,E.jsxs)(E.Fragment,{children:[(0,E.jsx)(Te,{currentTitle:e.shortTitle}),(0,E.jsxs)(`article`,{className:`section-page`,children:[(0,E.jsxs)(`header`,{className:`article-header`,children:[(0,E.jsx)(`div`,{className:`article-emoji`,"aria-hidden":`true`,children:(0,E.jsx)(pe,{name:e.icon,size:30})}),(0,E.jsx)(`h1`,{children:e.title}),(0,E.jsx)(`div`,{className:`article-meta`,children:(0,E.jsxs)(`span`,{className:`article-meta-item`,children:[(0,E.jsx)(b,{size:14}),` 最終更新: `,ve(e.updatedAt)]})})]}),e.lead&&(0,E.jsx)(`p`,{className:`lead`,children:he(e.lead)}),(0,E.jsx)(we,{items:e.toc}),(0,E.jsx)(`div`,{className:`section-content`,children:_e(e.content)}),e.references&&e.references.length>0&&(0,E.jsx)(`div`,{dangerouslySetInnerHTML:{__html:oe(e.references)}}),(0,E.jsx)(Ee,{currentId:e.id}),(0,E.jsx)(De,{currentId:e.id}),(0,E.jsx)(`div`,{className:`section-footer`,children:(0,E.jsxs)(`a`,{href:`${D}/`,className:`back-link`,onClick:e=>{e.preventDefault(),A(`/`)},children:[(0,E.jsx)(y,{size:16}),` トップへ戻る`]})})]})]})}var ke=`本サイト「${fe}」は、ブロッコリースプラウトを中心に、家庭でスプラウトを安全に育てて食べるための情報をまとめたものである。トップでは約1週間の栽培の手順と、根毛とカビの見分けを示し、各ページで育て方、衛生、選び方や調理までを扱う。
 
 ## 編集と制作の方針
