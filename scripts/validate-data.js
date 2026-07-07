@@ -23,7 +23,7 @@ while ((m = blockRe.exec(src)) !== null) {
   blocks.push({ id: m[1], block: m[0] });
 }
 
-const expected = ['about', 'vs-seedling', 'grow', 'discern', 'safety', 'choose', 'faq'];
+const expected = ['intro', 'vs-seedling', 'grow', 'discern', 'safety', 'choose', 'faq'];
 const ids = blocks.map((b) => b.id);
 
 const missing = expected.filter((e) => !ids.includes(e));

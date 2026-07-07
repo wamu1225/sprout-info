@@ -137,7 +137,7 @@ function formatDateJa(iso: string): string {
 
 // ── ホーム＝栽培ステッパー＋根毛/カビ判別（静的フォールバック） ──
 const NAV_GROUPS: { label: string; ids: string[] }[] = [
-  { label: 'はじめに', ids: ['about', 'vs-seedling'] },
+  { label: 'はじめに', ids: ['intro', 'vs-seedling'] },
   { label: 'そだてる', ids: ['grow', 'discern'] },
   { label: 'あんぜんに食べる', ids: ['safety', 'choose'] },
   { label: '疑問', ids: ['faq'] },

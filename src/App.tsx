@@ -242,7 +242,7 @@ function DiscernCard() {
 }
 
 const NAV_GROUPS: { label: string; ids: string[] }[] = [
-  { label: 'はじめに', ids: ['about', 'vs-seedling'] },
+  { label: 'はじめに', ids: ['intro', 'vs-seedling'] },
   { label: 'そだてる', ids: ['grow', 'discern'] },
   { label: 'あんぜんに食べる', ids: ['safety', 'choose'] },
   { label: '疑問', ids: ['faq'] },

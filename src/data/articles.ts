@@ -30,7 +30,7 @@ const REF = {
 export const articles: Article[] = [
   // ───────── 1. スプラウトとは ─────────
   {
-    id: 'about',
+    id: 'intro',
     title: 'スプラウトとは｜発芽したばかりの新芽',
     shortTitle: 'スプラウトとは',
     group: 'はじめに',
