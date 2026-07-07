@@ -71,7 +71,7 @@ for (const { id, block } of blocks) {
   const content = contentMatch[1];
 
   if (/toc:\s*\[\s*\]/.test(block)) errors.push(`[${id}] toc が空`);
-  if (content.length < 800) errors.push(`[${id}] content が短すぎる（${content.length}字・最低800）`);
+  if (content.length < 1000) errors.push(`[${id}] content が短すぎる（${content.length}字・最低1000。薄いページ対策で下限を800→1000に引き上げ 2026-07-07）`);
 
   if (tocMatch) {
     const tocItems = [...tocMatch[1].matchAll(/'([^']+)'/g)].length;
