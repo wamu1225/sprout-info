@@ -9,6 +9,7 @@ import { tokenizeInline } from './lib/inline';
 import type { InlineToken } from './lib/inline';
 import { GROW_STEPS } from './data/step-data';
 import { DISCERN_ROWS, DISCERN_SUMMARY } from './data/discern-data';
+import { figureHtml } from './figures-data';
 import './App.css';
 
 const BASE = '/sprout-info';
@@ -83,6 +84,13 @@ function parseContent(content: string): ReactNode[] {
     const line = lines[i];
     const trimmed = line.trim();
     if (trimmed === '') { i++; continue; }
+
+    const figMatch = trimmed.match(/^\{\{figure:([a-z0-9-]+)\}\}$/);
+    if (figMatch) {
+      const html = figureHtml(figMatch[1]);
+      if (html) result.push(<div key={key++} className="content-figure" dangerouslySetInnerHTML={{ __html: html }} />);
+      i++; continue;
+    }
 
     if (trimmed.startsWith('## ')) {
       const text = trimmed.slice(3);

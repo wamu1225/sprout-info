@@ -8,6 +8,7 @@ import { tokenizeInline } from '../src/lib/inline.ts';
 import type { InlineToken } from '../src/lib/inline.ts';
 import { GROW_STEPS } from '../src/data/step-data.ts';
 import { DISCERN_ROWS, DISCERN_SUMMARY } from '../src/data/discern-data.ts';
+import { figureHtml } from '../src/figures-data.ts';
 
 const DIST_DIR = path.resolve(process.cwd(), 'dist');
 const INDEX_HTML_PATH = path.join(DIST_DIR, 'index.html');
@@ -64,6 +65,13 @@ function markdownToHtml(content: string): string {
     const line = lines[i];
     const trimmed = line.trim();
     if (trimmed === '') { i++; continue; }
+
+    const figMatch = trimmed.match(/^\{\{figure:([a-z0-9-]+)\}\}$/);
+    if (figMatch) {
+      const html = figureHtml(figMatch[1]);
+      if (html) out.push(`<div class="content-figure">${html}</div>`);
+      i++; continue;
+    }
 
     if (trimmed.startsWith('## ')) {
       const text = trimmed.slice(3);

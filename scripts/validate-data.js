@@ -8,6 +8,9 @@ import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const articlesPath = path.join(__dirname, '..', 'src', 'data', 'articles.ts');
+const figuresPath = path.join(__dirname, '..', 'src', 'figures-data.ts');
+const figSrc = fs.existsSync(figuresPath) ? fs.readFileSync(figuresPath, 'utf-8') : '';
+const definedFigures = new Set([...figSrc.matchAll(/'([a-z0-9-]+)':\s*\{\s*\n\s*caption:/g)].map((x) => x[1]));
 
 if (!fs.existsSync(articlesPath)) {
   console.error('Error: src/data/articles.ts not found');
@@ -81,8 +84,13 @@ for (const { id, block } of blocks) {
 
   for (const t of [leadMatch && { f: 'lead', text: leadMatch[1] }, { f: 'content', text: content }].filter(Boolean)) {
     const rendered = renderSmoke(t.text);
-    if (/\{\{/.test(rendered)) errors.push(`[${id}] ${t.f} に未対応タグ {{…}} が残存`);
+    if (/\{\{(?!figure:)/.test(rendered)) errors.push(`[${id}] ${t.f} に未対応タグ {{…}} が残存`);
     if (/\*\*[^*\n]+\*\*/.test(rendered)) errors.push(`[${id}] ${t.f} に未展開の **bold** が残存`);
+    for (const f of [...t.text.matchAll(/\{\{figure:([a-z0-9-]+)\}\}/g)]) {
+      const lineOk = new RegExp(`(^|\\n)\\s*${f[0].replace(/[{}]/g, '\\$&')}\\s*(\\n|$)`).test(t.text);
+      if (!lineOk) errors.push(`[${id}] ${t.f} の {{figure:${f[1]}}} が行単独でない（生タグ露出の恐れ）`);
+      if (!definedFigures.has(f[1])) errors.push(`[${id}] ${t.f} の figure キー "${f[1]}" が figures-data.ts に未定義`);
+    }
   }
 
   for (const lk of [...content.matchAll(/\]\(\/sprout-info\/([a-z0-9-]+)\//g)]) {
