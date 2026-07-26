@@ -54,10 +54,51 @@ function roothairMoldSvg(): string {
   );
 }
 
+// 2) 緑化させる育て方と、緑化させない（軟白）育て方の対比
+function greeningVsBlanchedSvg(): string {
+  const DARK = '#2f3630';
+  const LIGHT = '#f6e6a8';
+  const x0 = 16, x1 = 196;
+  const bar = (y: number, splitX: number | null) =>
+    `<rect x="${x0}" y="${y}" width="${(splitX ?? x1) - x0}" height="18" rx="3" fill="${DARK}"/>` +
+    (splitX === null
+      ? ''
+      : `<rect x="${splitX}" y="${y}" width="${x1 - splitX}" height="18" rx="3" fill="${LIGHT}" stroke="${SOFT}" stroke-width="1"/>`);
+  // 収穫時の姿：緑化した芽（緑の子葉）と、軟白の芽（白いまま）
+  const seedling = (cx: number, cy: number, green: boolean) =>
+    `<path d="M${cx} ${cy + 16} L${cx} ${cy - 6}" stroke="${green ? DEEP : '#d8d5c4'}" stroke-width="3" stroke-linecap="round"/>` +
+    `<path d="M${cx} ${cy - 6} q -13 -4 -17 -14 q 13 0 17 8 Z" fill="${green ? SPROUT : '#efece0'}" stroke="${green ? SPROUT : '#cfcbb8'}" stroke-width="0.8"/>` +
+    `<path d="M${cx} ${cy - 6} q 13 -4 17 -14 q -13 0 -17 8 Z" fill="${green ? SOFT : '#f7f5ec'}" stroke="${green ? SOFT : '#cfcbb8'}" stroke-width="0.8"/>`;
+  return (
+    `<svg viewBox="0 0 300 162" width="100%" role="img" aria-label="緑化させる育て方と緑化させない軟白の育て方の対比図。緑化は最後に光を当てて子葉を緑にし、軟白は収穫まで暗いところで育てて白いまま仕上げる。">` +
+    `<rect width="300" height="162" fill="${BG}"/>` +
+    `<text x="${x0}" y="22" font-size="9" font-weight="700" fill="${DEEP}">緑化させる（かいわれ大根・ブロッコリー）</text>` +
+    bar(32, 146) +
+    `<text x="81" y="45" font-size="8" fill="#ffffff" text-anchor="middle">暗くして育てる</text>` +
+    `<text x="171" y="45" font-size="7.5" fill="${INK}" text-anchor="middle">最後に光</text>` +
+    seedling(250, 36, true) +
+    `<text x="250" y="64" font-size="8" fill="${INK}" text-anchor="middle">子葉が緑になる</text>` +
+    `<line x1="16" y1="76" x2="284" y2="76" stroke="${SOFT}" stroke-width="1" stroke-dasharray="3 3"/>` +
+    `<text x="${x0}" y="96" font-size="9" font-weight="700" fill="${DEEP}">緑化させない＝軟白（豆もやし）</text>` +
+    bar(106, null) +
+    `<text x="106" y="119" font-size="8" fill="#ffffff" text-anchor="middle">収穫まで暗いまま</text>` +
+    seedling(250, 110, false) +
+    `<text x="250" y="138" font-size="8" fill="${INK}" text-anchor="middle">全体が白いまま</text>` +
+    `<text x="${x0}" y="136" font-size="7.5" fill="${INK}">1日目</text>` +
+    `<text x="${x1}" y="136" font-size="7.5" fill="${INK}" text-anchor="end">収穫</text>` +
+    `<text x="${x0}" y="154" font-size="8" fill="${INK}">同じ水耕でも、最後に光を当てるかどうかで仕上がりが変わる</text>` +
+    `</svg>`
+  );
+}
+
 const FIGURE_DATA: Record<string, { caption: string; inner: string }> = {
   'roothair-vs-mold': {
     caption: '根毛とカビの見分け（模式図）。根毛は同じ向きにそろった細い毛で、霧吹きの水を吸って寝て白さが消える。カビは灰色で不規則な網目状（クモの巣状）にひろがり、水をはじいて残る。全体がやわらかい、ぬめる、酸っぱいにおいがするときは、見分けを問わず食べずに処分する。',
     inner: roothairMoldSvg(),
+  },
+  'greening-vs-blanched': {
+    caption: '緑化と軟白の対比（模式図）。かいわれ大根やブロッコリースプラウトは、暗いところで茎をのばし、最後に明るい室内へ移して子葉を緑にする。豆もやしは収穫まで光を当てず、全体が白いまま育てる。育てているものがどちらの仕上げかを先に確かめる。',
+    inner: greeningVsBlanchedSvg(),
   },
 };
 
