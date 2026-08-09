@@ -9,11 +9,11 @@ import type { InlineToken } from '../src/lib/inline.ts';
 import { GROW_STEPS } from '../src/data/step-data.ts';
 import { DISCERN_ROWS, DISCERN_SUMMARY } from '../src/data/discern-data.ts';
 import { figureHtml } from '../src/figures-data.ts';
+import { SITE_NAME, ABOUT_CONTENT, PRIVACY_CONTENT } from '../src/data/static-pages.ts';
 
 const DIST_DIR = path.resolve(process.cwd(), 'dist');
 const INDEX_HTML_PATH = path.join(DIST_DIR, 'index.html');
 const BASE_URL = 'https://study-apps.com/sprout-info';
-const SITE_NAME = 'スプラウト栽培ノート';
 const SPROUT = '#4f9a41';
 const DEEP = '#2f6b2a';
 const SOFT = '#8bc47a';
@@ -362,31 +362,19 @@ function writeStaticPage(id: string, title: string, description: string, bodyHtm
   generatedCount++;
 }
 
-const sectionH2 = (t: string) => `<h2 style="font-size:1.3rem;color:${DEEP};border-left:5px solid ${SPROUT};padding-left:12px;margin:32px 0 12px">${t}</h2>`;
-
+// SSOT（src/data/static-pages.ts）から本文を読む（2026-08-10・O-2-15＝App.tsxとの二重管理を解消）
 writeStaticPage(
   'about',
   'サイトについて',
   `${SITE_NAME}について。本サイトの目的と情報源、編集方針、健康と安全の扱いを説明します。`,
-  `<p>本サイト「${SITE_NAME}」は、ブロッコリースプラウトを中心に、家庭でスプラウトを安全に育てて食べるための情報をまとめたものです。トップでは約1週間の栽培の手順と、根毛とカビの見分けを示し、各ページで育て方、衛生、選び方や調理までを扱います。</p>
-  ${sectionH2('編集と制作の方針')}
-  <p>本サイトの内容は、農林水産省の衛生管理の指針や、種苗メーカーの家庭向けの育て方などの公開情報を参照し、事実を確認したうえで、運営者が自分の言葉で書いています。出典の文章をそのまま転載することはありません。</p>
-  ${sectionH2('健康と安全について')}
-  <p>本サイトは、特定の健康効果や病気の予防をうたいません。成分の効果には研究途上のものが多く、数値や倍率、特定の商品を宣伝することもしません。また、生で食べるスプラウトには食中毒のリスクがあるため、衛生については公的機関の情報にもとづいて記述しています。においや変色があるものは食べないでください。</p>
-  ${sectionH2('お問い合わせ')}
-  <p>ご質問や誤りのご指摘は<a href="https://forms.gle/ccMv7oKwz6ysDHBe6" target="_blank" rel="noopener noreferrer" style="color:${DEEP}">こちらのGoogleフォーム</a>からお願いします。</p>`
+  markdownToHtml(ABOUT_CONTENT)
 );
 
 writeStaticPage(
   'privacy',
   'プライバシーポリシー',
   `${SITE_NAME}のプライバシーポリシー。Cookie・アクセス解析・広告の使用について。`,
-  `${sectionH2('アクセス解析')}
-  <p>本サイトでは、サイトの利用状況を把握するために Google Analytics を使用しています。Google Analytics はクッキーを利用して匿名のトラフィックデータを収集します。収集される情報は匿名で、個人を特定するものではありません。</p>
-  ${sectionH2('広告について')}
-  <p>本サイトでは Google AdSense などの第三者配信の広告サービスを利用することがあります。広告配信事業者は、ユーザーの興味に応じた広告を表示するためにクッキーを使用することがあります。Cookie を無効にする設定や、Google の広告設定により、パーソナライズ広告を無効にできます。</p>
-  ${sectionH2('免責事項')}
-  <p>本サイトの情報は可能な限り正確を期していますが、その完全性や正確性を保証するものではありません。栽培の日数や温度は目安であり、環境によって変わります。生食のスプラウトには食中毒のリスクがあります。本サイトの情報を利用したことにより生じた損害について、運営者は一切の責任を負いません。</p>`
+  markdownToHtml(PRIVACY_CONTENT)
 );
 
 const today = new Date().toISOString().split('T')[0];

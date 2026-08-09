@@ -10,10 +10,10 @@ import type { InlineToken } from './lib/inline';
 import { GROW_STEPS } from './data/step-data';
 import { DISCERN_ROWS, DISCERN_SUMMARY } from './data/discern-data';
 import { figureHtml } from './figures-data';
+import { SITE_NAME, ABOUT_CONTENT, PRIVACY_CONTENT } from './data/static-pages';
 import './App.css';
 
 const BASE = '/sprout-info';
-const SITE_NAME = 'スプラウト栽培ノート';
 
 function SectionIcon({ name, size = 24 }: { name: string; size?: number }) {
   return <span className="section-icon" dangerouslySetInnerHTML={{ __html: sectionIconSvg(name, size) }} />;
@@ -406,31 +406,6 @@ function ArticlePage({ article }: { article: Article }) {
   );
 }
 
-const ABOUT_CONTENT = `本サイト「${SITE_NAME}」は、ブロッコリースプラウトを中心に、家庭でスプラウトを安全に育てて食べるための情報をまとめたものです。トップでは約1週間の栽培の手順と、根毛とカビの見分けを示し、各ページで育て方、衛生、選び方や調理までを扱います。
-
-## 編集と制作の方針
-
-本サイトの内容は、農林水産省の衛生管理の指針や、種苗メーカーの家庭向けの育て方などの公開情報を参照し、事実を確認したうえで、運営者が自分の言葉で書いています。出典の文章をそのまま転載することはありません。
-
-## 健康と安全について
-
-本サイトは、特定の健康効果や病気の予防をうたいません。成分の効果には研究途上のものが多く、数値や倍率、特定の商品を宣伝することもしません。また、生で食べるスプラウトには食中毒のリスクがあるため、衛生については公的機関の情報にもとづいて記述しています。においや変色があるものは食べないでください。
-
-## お問い合わせ
-
-ご質問や誤りのご指摘は[こちらのGoogleフォーム](https://forms.gle/ccMv7oKwz6ysDHBe6)からお願いします。`;
-
-const PRIVACY_CONTENT = `## アクセス解析
-
-本サイトでは、サイトの利用状況を把握するために Google Analytics を使用しています。Google Analytics はクッキーを利用して匿名のトラフィックデータを収集します。収集される情報は匿名で、個人を特定するものではありません。
-
-## 広告について
-
-本サイトでは Google AdSense などの第三者配信の広告サービスを利用することがあります。広告配信事業者は、ユーザーの興味に応じた広告を表示するためにクッキーを使用することがあります。Cookie を無効にする設定や、Google の広告設定により、パーソナライズ広告を無効にできます。
-
-## 免責事項
-
-本サイトの情報は可能な限り正確を期していますが、その完全性や正確性を保証するものではありません。栽培の日数や温度は目安であり、環境によって変わります。生食のスプラウトには食中毒のリスクがあります。本サイトの情報を利用したことにより生じた損害について、運営者は一切の責任を負いません。`;
 
 function About() {
   useEffect(() => { document.title = `サイトについて | ${SITE_NAME}`; window.scrollTo(0, 0); }, []);
