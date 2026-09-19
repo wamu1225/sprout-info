@@ -10,11 +10,13 @@
 .site-header-inner {
   max-width: 1040px;
   margin: 0 auto;
-  padding: 10px 18px;
+  /* PCで7分野ナビがブランドと同じ行に収まらず折り返し、ヘッダーが画面の
+     18%を占めていた（O-3-27・監督のlayout_scan実測）。上下余白を詰める。 */
+  padding: 6px 18px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 4px;
 }
 .site-brand {
   display: flex;
@@ -38,15 +40,24 @@
   display: none;
   cursor: pointer;
 }
-.site-nav { margin-left: auto; display: flex; flex-wrap: wrap; gap: 2px; }
+.site-nav {
+  margin-left: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  gap: 2px;
+}
 .site-nav a {
   display: inline-flex;
   align-items: center;
   gap: 5px;
   color: #eaf3e2;
-  padding: 6px 10px;
+  padding: 3px 8px;
   border-radius: 999px;
-  font-size: 0.83rem;
+  font-size: 0.8rem;
+  flex-shrink: 0;
+  white-space: nowrap;
 }
 .site-nav a:hover { background: rgba(255, 255, 255, 0.15); text-decoration: none; }
 .nav-emoji { display: inline-flex; opacity: 0.9; }
@@ -264,7 +275,11 @@
 /* ===== レスポンシブ ===== */
 @media (max-width: 680px) {
   .nav-toggle { display: inline-flex; }
-  .site-nav { width: 100%; flex-direction: column; gap: 0; max-height: 0; overflow: hidden; transition: max-height 0.2s ease; }
+  /* flex-wrap:wrap（デスクトップ用の基本ルール）がcolumn方向でも残ったままだと、
+     max-height:0で「1行に収まらない」各項目が縦に積まれず、新しい列として
+     右へ次々はみ出す（O-3-27・監督のlayout_scan実測＝はみ出し638px、
+     メニュー閉時は不可視だがフォーカス可能なリンクが画面外に残る）。 */
+  .site-nav { width: 100%; flex-direction: column; flex-wrap: nowrap; gap: 0; max-height: 0; overflow: hidden; transition: max-height 0.2s ease; }
   .site-nav.open { max-height: 640px; margin-top: 8px; }
   .site-nav a { padding: 11px 8px; border-bottom: 1px solid rgba(255, 255, 255, 0.12); border-radius: 0; }
   .grow-title { font-size: 1.45rem; }
