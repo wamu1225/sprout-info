@@ -17,8 +17,8 @@ function roothairMoldSvg(): string {
     `<g transform="translate(${x} 0)">` +
     `<rect x="6" y="12" width="126" height="98" rx="8" fill="#ffffff" stroke="${SOFT}" stroke-width="1.3"/>` +
     body +
-    `<text x="69" y="102" font-size="7" fill="${INK}" text-anchor="middle">${trait}</text>` +
-    `<text x="69" y="124" font-size="10" font-weight="700" fill="${DEEP}" text-anchor="middle">${title}</text>` +
+    `<text x="69" y="102" font-size="10.5" fill="${INK}" text-anchor="middle">${trait}</text>` +
+    `<text x="69" y="124" font-size="10.5" font-weight="700" fill="${DEEP}" text-anchor="middle">${title}</text>` +
     `</g>`;
   // 共通：小さな双葉の芽・茎・根（根元のクローズアップ）
   const sprout =
@@ -72,21 +72,21 @@ function greeningVsBlanchedSvg(): string {
   return (
     `<svg viewBox="0 0 300 162" width="100%" role="img" aria-label="緑化させる育て方と緑化させない軟白の育て方の対比図。緑化は最後に光を当てて子葉を緑にし、軟白は収穫まで暗いところで育てて白いまま仕上げる。">` +
     `<rect width="300" height="162" fill="${BG}"/>` +
-    `<text x="${x0}" y="22" font-size="9" font-weight="700" fill="${DEEP}">緑化させる（かいわれ大根・ブロッコリー）</text>` +
+    `<text x="${x0}" y="22" font-size="10.5" font-weight="700" fill="${DEEP}">緑化させる（かいわれ大根・ブロッコリー）</text>` +
     bar(32, 146) +
-    `<text x="81" y="45" font-size="8" fill="#ffffff" text-anchor="middle">暗くして育てる</text>` +
-    `<text x="171" y="45" font-size="7.5" fill="${INK}" text-anchor="middle">最後に光</text>` +
+    `<text x="81" y="46" font-size="10.5" fill="#ffffff" text-anchor="middle">暗くして育てる</text>` +
+    `<text x="171" y="46" font-size="10.5" fill="${INK}" text-anchor="middle">最後に光</text>` +
     seedling(250, 36, true) +
-    `<text x="250" y="64" font-size="8" fill="${INK}" text-anchor="middle">子葉が緑になる</text>` +
+    `<text x="250" y="64" font-size="10.5" fill="${INK}" text-anchor="middle">子葉が緑になる</text>` +
     `<line x1="16" y1="76" x2="284" y2="76" stroke="${SOFT}" stroke-width="1" stroke-dasharray="3 3"/>` +
-    `<text x="${x0}" y="96" font-size="9" font-weight="700" fill="${DEEP}">緑化させない＝軟白（豆もやし）</text>` +
+    `<text x="${x0}" y="96" font-size="10.5" font-weight="700" fill="${DEEP}">緑化させない＝軟白（豆もやし）</text>` +
     bar(106, null) +
-    `<text x="106" y="119" font-size="8" fill="#ffffff" text-anchor="middle">収穫まで暗いまま</text>` +
+    `<text x="106" y="120" font-size="10.5" fill="#ffffff" text-anchor="middle">収穫まで暗いまま</text>` +
     seedling(250, 110, false) +
-    `<text x="250" y="138" font-size="8" fill="${INK}" text-anchor="middle">全体が白いまま</text>` +
-    `<text x="${x0}" y="136" font-size="7.5" fill="${INK}">1日目</text>` +
-    `<text x="${x1}" y="136" font-size="7.5" fill="${INK}" text-anchor="end">収穫</text>` +
-    `<text x="${x0}" y="154" font-size="8" fill="${INK}">同じ水耕でも、最後に光を当てるかどうかで仕上がりが変わる</text>` +
+    `<text x="250" y="138" font-size="10.5" fill="${INK}" text-anchor="middle">全体が白いまま</text>` +
+    `<text x="${x0}" y="136" font-size="10.5" fill="${INK}">1日目</text>` +
+    `<text x="${x1}" y="136" font-size="10.5" fill="${INK}" text-anchor="end">収穫</text>` +
+    `<text x="${x0}" y="155" font-size="10.5" fill="${INK}">最後に光を当てるかどうかで仕上がりが変わる</text>` +
     `</svg>`
   );
 }
