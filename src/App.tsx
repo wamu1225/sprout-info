@@ -453,6 +453,7 @@ function Footer() {
         <a href="https://study-apps.com/editorial-policy/">編集方針</a>
         <a href="https://study-apps.com/">study-apps.com</a>
       </div>
+      <div className="site-footer-links"><span>ほかの 植物ガイド：<a href="https://study-apps.com/beets-info/">ビーツ</a> ・ <a href="https://study-apps.com/monstera-info/">モンステラ</a> ・ <a href="https://study-apps.com/gajumaru-info/">ガジュマル</a></span></div>
       <div className="site-footer-note">
         本サイトはスプラウトの栽培と安全な食べ方を、農林水産省や種苗メーカーの公開情報をもとに自分の言葉でまとめたものです。健康効果はうたいません。栽培の日数や温度は目安です。
       </div>
